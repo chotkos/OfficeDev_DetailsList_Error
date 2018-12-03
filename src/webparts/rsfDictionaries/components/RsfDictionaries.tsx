@@ -5,8 +5,9 @@ import { escape } from '@microsoft/sp-lodash-subset';
 import { BaseComponent } from 'office-ui-fabric-react/lib/Utilities';
 import { DefaultButton } from 'office-ui-fabric-react/lib/Button';
 import { Fabric } from 'office-ui-fabric-react/lib/Fabric';
-import { IDetailsList, DetailsList, IColumn } from 'office-ui-fabric-react/lib/DetailsList';
 import { Checkbox } from 'office-ui-fabric-react/lib/Checkbox';
+import { DetailsList } from 'office-ui-fabric-react/lib/DetailsList';
+import { IDetailsList, IColumn } from 'office-ui-fabric-react/lib/components/DetailsList/DetailsList.types';
 
 
 const _columns = [
@@ -116,9 +117,9 @@ export default class RsfDictionaries extends React.Component<IRsfDictionariesPro
           columns={_columns}
           ariaLabelForSelectAllCheckbox="Toggle selection for all items"
           ariaLabelForSelectionColumn="Toggle selection"
-          groupProps={{
+          /*groupProps={{
             showEmptyGroups: true
-          }}
+          }}*/
           onRenderItemColumn={this._onRenderColumn}
         />
       </Fabric>
