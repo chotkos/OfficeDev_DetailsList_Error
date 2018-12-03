@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.7.0",
+    "libraryName": "rsf-dictionaries",
+    "libraryId": "6db88cda-76af-47f3-80a9-05b12bdef4aa",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

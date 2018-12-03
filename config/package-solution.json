@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "rsf-dictionaries-client-side-solution",
+    "id": "6db88cda-76af-47f3-80a9-05b12bdef4aa",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/rsf-dictionaries.sppkg"
+  }
+}

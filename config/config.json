@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "rsf-dictionaries-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/rsfDictionaries/RsfDictionariesWebPart.js",
+          "manifest": "./src/webparts/rsfDictionaries/RsfDictionariesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RsfDictionariesWebPartStrings": "lib/webparts/rsfDictionaries/loc/{locale}.js"
+  }
+}
